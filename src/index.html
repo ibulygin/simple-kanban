@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Kanbanboard</title>
-  </head>
+<html lang="en">
 
-  <body class="board-app">
-    <main class="board-app__main">
-      <div class="board-app__inner"></div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Kanbanboard</title>
+  <link rel="stylesheet" href="css/blocks/header.css">
+  <link rel="stylesheet" href="css/blocks/newTask.css">
+</head>
+
+<body class="board-app">
+  <main class="board-app__main">
+    <div class="header_main">
+      <div class="title_header">Kanban-board</div>
+    </div>
+
+    <div class="new-task_main">
+      <div class="title-new-task">New task</div>
+      <div class="new-task-form">
+        <input class="new-task-input" type="text" placeholder="Name task">
+        <button class="new-task-button">+ Add</button>
+      </div>
+    </div>
+    <div class="board-app__inner"></div>
+  </main>
+</body>
+
 </html>

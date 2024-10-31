@@ -1,0 +1,21 @@
+.header_main{
+    width: auto;
+    height: 50px;
+    background-color: #2f80ed;
+}
+
+.title_header{
+    color:  #fff;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.board-app{
+    margin: 0;
+    background-color: #eef4fb;
+
+}
