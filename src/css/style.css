@@ -3,4 +3,5 @@
 @import 'global/fonts.css';
 @import 'global/reboot.css';
 @import 'global/typography.css';
-@import 'blocks/header.css'
+@import 'blocks/header.css';
+@import 'blocks/newTask.css';
