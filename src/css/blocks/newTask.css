@@ -1,6 +1,6 @@
 .new-task_main {
-    width: 320px;
-    background-color: #fff;
+    width: 330px;
+    background-color: var(--color-white);
     margin-left: 100px;
     margin-top: 50px;
     border-radius: 15px;
@@ -10,7 +10,7 @@
 .title-new-task {
     font-size: 20px;
     font-weight: bold;
-    color: #333333;
+    color: var(--text-main-color);
 }
 
 .new-task-form {
@@ -23,16 +23,16 @@
     cursor: pointer;
     outline: none;
     border: none;
-    border: solid 1px #e3e3e3;
+    border: solid 1px var(--light-gray);
     border-radius: 4px;
 }
 
 .new-task-button {
     font-size: 15px;
     padding: 5px 25px;
-    background-color: #0061e4;
-    color: #fff;
-    border-color: #0061e4;
+    background-color: var(--btn-active-color);
+    color: var(--color-white);
+    border-color: var(--btn-active-color);
     border-radius: 4px;
     cursor: pointer;
     margin-left: 5px;

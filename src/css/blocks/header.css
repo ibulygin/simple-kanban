@@ -1,11 +1,12 @@
-.header_main{
+.header_main {
     width: auto;
     height: 50px;
-    background-color: #2f80ed;
+    background-color: var(--main-blue);
 }
 
-.title_header{
-    color:  #fff;
+.title_header {
+    font: var(--main-font);
+    color: var(--color-white);
     padding-left: 100px;
     padding-top: 10px;
     font-weight: bolder;
@@ -14,8 +15,8 @@
     align-items: center;
 }
 
-.board-app{
+.board-app {
     margin: 0;
-    background-color: #eef4fb;
+    background-color: var(--main-bg);
 
 }
