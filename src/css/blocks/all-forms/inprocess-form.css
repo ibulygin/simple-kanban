@@ -1,0 +1,9 @@
+.inprocess-btn {
+    color: var(--btn-active-color);
+    background-color: var(--btn-hover-color);
+}
+
+.input-inprocess{
+    display: flex;
+    flex-flow: column wrap;
+}

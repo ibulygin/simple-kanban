@@ -1,0 +1,33 @@
+.all-forms {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.button-all-forms {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.all-input {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    font-weight: lighter;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    .all-forms {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

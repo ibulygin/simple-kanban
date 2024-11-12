@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Kanbanboard</title>
-  </head>
+<html lang="en">
 
-  <body class="board-app">
-    <main class="board-app__main">
-      <div class="board-app__inner"></div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Kanbanboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+
+    <div class="header__main">
+      <div class="title__header">Kanban-board</div>
+    </div>
+
+    <div class="wrapper__main wrapper">
+
+      <div class="new-task__wrapper new-task">
+        <div class="title__new-task title">New task</div>
+        <form class="form__new-task form">
+          <input class="input__new-task input" type="text" placeholder="Name task">
+          <button class="button__new-task button">+ Add</button>
+        </form>
+      </div>
+
+      <div class="all-forms__wrapper all-forms">
+
+        <div class="back-log__all-forms back-log">
+          <div class="backlog__back-log backlog">
+            <button class="backlog-btn button-all-forms">Backlog</button>
+          </div>
+
+          <div class="input-backlog__all-forms input-backlog">
+            <input class="backlog-input__input-backlog input-backlog all-input" type="text">
+          </div>
+        </div>
+
+        <div class="in-process__all-forms">
+          <div class="inprocess__in-process inprocess">
+            <button class="inprocess-btn button-all-forms">In process</button>
+          </div>
+          <div class="input-inprocess__in-process input-inprocess">
+            <input class="backlog-input all-input" type="text">
+          </div>
+        </div>
+
+        <div class="done__all-forms done">
+          <div class="done-button__done">
+            <button class="done-btn button-all-forms">Done</button>
+          </div>
+          <div class="input-done__done input-done">
+            <input class="backlog-input__input-done all-input" type="text">
+          </div>
+        </div>
+
+        <div class="cart__all-forms cart">
+          <div class="cart-icon__cart">
+            <button class="cart-btn__cart-icon cart-btn button-all-forms">Cart</button>
+          </div>
+          <div class="input-cart__cart">
+            <input class="cart-input__input-cart all-input" type="text">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
 </html>
