@@ -1,0 +1,9 @@
+.done-btn{
+    background-color: var(--light-green);
+    color: var(--btn-done);
+}
+
+.input-done{
+    display: flex;
+    flex-flow: column wrap;
+}

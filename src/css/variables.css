@@ -2,6 +2,8 @@
 
   --main-font: "Muller", "Helvetica", sans-serif;
 
+  --font-size-15: 15px;
+
   --main-blue: #2f80ed;
   --main-bg: #eef4fb;
   --text-main-color: #333333;
@@ -23,6 +25,6 @@
   --inactive-color: #d0d0d0;
 
   --animation: 0.155s ease-in-out;
-  --color-white: #fff
-
+  --color-white: #fff;
+  --btn-done: #178117;
 }

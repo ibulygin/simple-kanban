@@ -1,0 +1,9 @@
+.backlog-btn {
+    background-color: var(--light-gray);
+    color: var(--text-main-color);
+}
+
+.input-backlog{
+    display: flex;
+    flex-flow: column wrap;
+}

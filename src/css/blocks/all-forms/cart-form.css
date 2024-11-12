@@ -1,0 +1,9 @@
+.cart-btn {
+    background-color: var(--btn-clear-hover-color);
+    color: var(--btn-clear-active-color);
+}
+
+.input-cart__cart{
+    display: flex;
+    flex-flow: column wrap;
+}

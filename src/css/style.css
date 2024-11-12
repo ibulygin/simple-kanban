@@ -5,3 +5,8 @@
 @import 'global/typography.css';
 @import 'blocks/header.css';
 @import 'blocks/newTask.css';
+@import 'blocks/all-forms/all.forms.css';
+@import 'blocks/all-forms/backlog-form.css';
+@import 'blocks/all-forms/inprocess-form.css';
+@import 'blocks/all-forms/done-form.css';
+@import 'blocks/all-forms/cart-form.css';
